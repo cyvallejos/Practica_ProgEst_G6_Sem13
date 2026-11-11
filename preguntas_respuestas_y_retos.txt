@@ -1,0 +1,58 @@
+PREGUNTAS
+
+1. ¿Qué versión de Python aparece?
+Respuesta: En el entorno utilizado aparece Python 3.14.5.
+
+2. ¿Para qué sirve separar app.py de templates/index.html?
+Respuesta: Para mantener la lógica del servidor y la interfaz visual separadas. El backend se encarga del procesamiento y la API, mientras que la plantilla presenta la información al usuario.
+
+3. ¿Qué ventaja ofrece un entorno virtual?
+Respuesta: Permite instalar librerías y versiones específicas para un proyecto sin afectar el resto del sistema. Así evitamos conflictos entre proyectos.
+
+4. ¿Qué ocurre si Flask no está instalado?
+Respuesta: La aplicación no puede ejecutarse porque Python no puede importar la librería Flask y el servidor no arranca.
+
+5. ¿Por qué pop() implementa LIFO y pop(0) implementa FIFO?
+Respuesta: pop() elimina el último elemento de la lista, por eso funciona como una pila: el último en entrar es el primero en salir (LIFO). pop(0) elimina el primer elemento, por eso funciona como una cola: el primero en entrar es el primero en salir (FIFO).
+
+6. ¿Qué parte del código envía los datos del navegador al servidor?
+Respuesta: La parte del cliente en JavaScript, usando fetch() para enviar una petición POST con JSON al servidor.
+
+7. ¿Qué mensaje aparece en el terminal cuando Flask inicia correctamente?
+Respuesta: Aparece un mensaje como "Running on http://127.0.0.1:5000" y la aplicación queda disponible en el navegador.
+
+8. ¿En qué se diferencian las operaciones de una pila, una cola y una lista?
+Respuesta: Una pila sigue LIFO, una cola sigue FIFO y una lista permite almacenar y modificar elementos en posiciones sin restricciones de salida.
+
+9. ¿Por qué conviene validar los datos antes de modificar una estructura?
+Respuesta: Para evitar errores, datos duplicados, elementos inexistentes o acciones inválidas que puedan romper la lógica del programa.
+
+10. ¿Qué mejorías harías en la interfaz y en el código?
+Respuesta: Mejoraría la interfaz con mensajes más claros y validaciones visuales, y el código con menos repetición y más control de errores.
+
+RETO 1: Pila - Historial de edición
+Pregunta: ¿Por qué pop() implementa LIFO y pop(0) implementa FIFO?
+Respuesta: pop() elimina el último elemento de la lista, por eso funciona como una pila: el último en entrar es el primero en salir (LIFO). pop(0) elimina el primer elemento, por eso funciona como una cola: el primero en entrar es el primero en salir (FIFO).
+
+RETO 2: Cola - Atención de estudiantes
+Pregunta: ¿Qué ventaja ofrece una cola en la atención de estudiantes?
+Respuesta: Una cola permite atender en orden de llegada. El primero que llega es el primero que se atiende, evitando desorden y asegurando justicia en la atención.
+
+RETO 3: Lista - Registro académico
+Pregunta: ¿En qué se diferencian las operaciones de una pila, una cola y una lista?
+Respuesta: Una pila trabaja con LIFO, una cola con FIFO y una lista permite almacenar elementos en posiciones y modificarlos de manera flexible, sin restricciones de orden de salida.
+
+RETO 4: Árbol - Organización universitaria
+Pregunta: ¿Qué estructura representa un árbol y cómo se relacionan los nodos?
+Respuesta: Un árbol representa jerarquías. Cada nodo puede tener un padre y varios hijos. La relación padre-hijo describe la organización, por ejemplo una facultad con varios departamentos o programas.
+
+RETO 5: Grafo - Red del campus
+Pregunta: ¿Qué representa un grafo y cómo se conectan sus elementos?
+Respuesta: Un grafo representa conexiones entre elementos. Los vértices son los nodos y las aristas son las relaciones entre ellos. Un vértice puede conectarse con varios otros, y no todos tienen que estar conectados directamente.
+
+RETO 6: Reto avanzado - Extensión de código
+Pregunta: ¿Qué mejora harías a la interfaz o al código?
+Respuesta: Añadiría una operación de búsqueda para localizar elementos en una estructura, y mejoraría la visualización del estado para mostrar claramente los datos actuales y los resultados.
+
+CONCLUSIÓN
+Respuesta: En esta práctica aprendimos a modelar estructuras de datos básicas con Python y a conectarlas con un servidor web. La pila, la cola, la lista, el árbol y el grafo permiten resolver problemas reales de organización, flujo y relación entre datos.
